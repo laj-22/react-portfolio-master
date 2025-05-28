@@ -21,7 +21,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
+        "predeploy": "npm run build && copy build\\index.html build\\404.html",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
@@ -45,5 +45,5 @@
     "devDependencies": {
         "gh-pages": "^6.3.0"
     },
-    "homepage": "https://YOUR_GITHUB_USERNAME.github.io/react-portfolio"
+    "homepage": "https://laj-22.github.io/react-portfolio"
 }
